@@ -1,6 +1,6 @@
 # ESP32 Temperature Controller
 
-Wersja: 1.0 — funkcjonalna, bez łączności BLE_
+Wersja: 1.0
 
 Projekt sterownika temperatury opartego na **ESP32‑WROOM‑32**, który odczytuje 4 czujniki **DS18B20**, wyświetla dane na wyświetlaczu **LCD 20×4 (I²C)** i steruje dwoma przekaźnikami **SSR‑40DA**.
 
