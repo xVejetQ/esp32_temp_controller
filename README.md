@@ -67,7 +67,7 @@ Projekt dystrybuowany na licencji **MIT** – szczegóły w pliku `LICENSE`.
 ## 7. Autorzy
 - **vejetq** //Daniel Łukasik
 
-## 8. Bazowane na
+## Bazowane na
 oficjalne komponenty z przykładami Esperessif:
 espressif/ds18b20
 espressif/onewire_bus
