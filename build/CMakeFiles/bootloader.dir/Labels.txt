@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/CMakeFiles/bootloader
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/CMakeFiles/bootloader.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/CMakeFiles/bootloader-complete.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Projekty/niewierzekurwadziala/esp32_temp_controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
