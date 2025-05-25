@@ -17,17 +17,17 @@ Projekt sterownika temperatury opartego na **ESP32‑WROOM‑32**, który odczyt
 8. [Bazowane na](#bazowane-na)
 ---
 
-## 1. Opis projektu
+## Opis projektu
 Sterownik mierzy temperatury w czterech punktach, prezentuje je lokalnie na wyświetlaczu LCD oraz załącza dwa wyjścia (SSR) według zdefiniowanych progów. Konfiguracja progów i pinów odbywa się za pomocą sekcji #define w pliku main.c.
 
-## 2. Funkcjonalności
+## Funkcjonalności
 - Odczyt 4 czujników **DS18B20** po magistrali OneWire
 - Sterowanie 2 przekaźnikami **SSR‑40DA** (230 V AC, maks 40 A)
 - Wyświetlanie aktualnych temperatur i stanów wyjść na **LCD 20×4**
 - Konfiguracja za pomocą sekcji #define w main.c
 - Kod zgodny z **ESP‑IDF v5** (C/C++)
 
-## 3. Wymagania sprzętowe
+## Wymagania sprzętowe
 |     Element    | Ilość |              Uwagi               |
 |----------------|-------|----------------------------------|
 | ESP32‑WROOM‑32 | 1     | DevKit V1 lub inny moduł         |
@@ -36,7 +36,7 @@ Sterownik mierzy temperatury w czterech punktach, prezentuje je lokalnie na wyś
 | SSR‑40DA       | 2     | Sterowanie np. grzałkami         |
 | Zasilacz 5 V   | 1     | ≥700 mA                          |
 
-## 4. Schemat połączeń
+## Schemat połączeń
 ```
 DS18B20 (DQ) ----- GPIO4  <OneWire>
 LCD SDA ---------- GPIO21 <I²C>
@@ -49,7 +49,7 @@ Button ENTER ----- GPIO25
 ```
 _Reszta pinów: 3V3, GND, 5V zgodnie z datasheet._
 
-## 5. Szybki start
+## Szybki start
 ```bash
 # 1. Zainstaluj ESP‑IDF v5.x
 
@@ -61,10 +61,10 @@ $ idf.py build flash monitor
 ```
 Po skompilowaniu urządzenie zacznie wysyłać logi na UART 115200 Bd.
 
-## 6. Licencja
+## Licencja
 Projekt dystrybuowany na licencji **MIT** – szczegóły w pliku `LICENSE`.
 
-## 7. Autorzy
+## Autorzy
 - **vejetq** //Daniel Łukasik
 
 ## Bazowane na
