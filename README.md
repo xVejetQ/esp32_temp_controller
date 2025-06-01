@@ -43,9 +43,6 @@ LCD SDA ---------- GPIO21 <I2C>
 LCD SCL ---------- GPIO22 <I2C>
 SSR1 ------------- GPIO26
 SSR2 ------------- GPIO27
-Button ENC A ----- GPIO32
-Button ENC B ----- GPIO33
-Button ENTER ----- GPIO25
 ```
 _Reszta pinów: 3V3, GND, 5V zgodnie z datasheet._
 
