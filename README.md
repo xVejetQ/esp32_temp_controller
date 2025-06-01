@@ -2,7 +2,7 @@
 
 Wersja: 1.0
 
-Projekt sterownika temperatury opartego na **ESP32‑WROOM‑32**, który odczytuje dane z 4 czujników **DS18B20**, wyświetla dane na wyświetlaczu **LCD 20×4 (I²C)** i steruje dwoma przekaźnikami **SSR‑40DA**.
+Projekt sterownika temperatury opartego na **ESP32‑WROOM‑32**, który odczytuje dane z 4 czujników **DS18B20**, wyświetla dane na wyświetlaczu **LCD 20×4 (I2C)** i steruje dwoma przekaźnikami **SSR‑40DA**.
 
 Film ilustrujący działanie: https://youtu.be/xhZf3HNrp80
 
@@ -34,7 +34,7 @@ Sterownik mierzy temperatury w czterech punktach, prezentuje je lokalnie na wyś
 |----------------|-------|----------------------------------|
 | ESP32‑WROOM‑32 | 1     | DevKit V1 lub inny moduł         |
 | DS18B20        | 4     | Każdy z rezystorem 4,7 kΩ do VCC |
-| LCD 20×4 + I²C | 1     | PCF8574                          |
+| LCD 20×4 + I2C | 1     | PCF8574                          |
 | SSR‑40DA       | 2     | Sterowanie np. grzałkami         |
 | Zasilacz 5 V   | 1     | ≥700 mA                          |
 
