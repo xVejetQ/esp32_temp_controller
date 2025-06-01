@@ -39,8 +39,8 @@ Sterownik mierzy temperatury w czterech punktach, prezentuje je lokalnie na wyś
 ## Schemat połączeń
 ```
 DS18B20 (DQ) ----- GPIO4  <OneWire>
-LCD SDA ---------- GPIO21 <I²C>
-LCD SCL ---------- GPIO22 <I²C>
+LCD SDA ---------- GPIO21 <I2C>
+LCD SCL ---------- GPIO22 <I2C>
 SSR1 ------------- GPIO26
 SSR2 ------------- GPIO27
 Button ENC A ----- GPIO32
