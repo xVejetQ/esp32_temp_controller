@@ -15,7 +15,7 @@ Film ilustrujący działanie: https://youtu.be/xhZf3HNrp80
 4. [Schemat połączeń](#schemat-po%C5%82%C4%85cze%C5%84)
 5. [Szybki start](#szybki-start)
 6. [Licencja](#licencja)
-7. [Autorzy](#autorzy)
+7. [Autor](#autor)
 8. [Bazowane na](#bazowane-na)
 ---
 
@@ -63,7 +63,7 @@ Po skompilowaniu urządzenie zacznie wysyłać logi na UART 115200 Bd.
 ## Licencja
 Projekt dystrybuowany na licencji **MIT** – szczegóły w pliku `LICENSE`.
 
-## Autorzy
+## Autor
 - **vejetq** //Daniel Łukasik
 
 ## Bazowane na
